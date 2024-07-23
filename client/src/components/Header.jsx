@@ -176,7 +176,7 @@ function Header({ setLoading }) {
                   className="bg-bosta text-white p-3 rounded-r-lg h-10"
                   onClick={() => {
                     handleQuerySubmission();
-                    setToggleSearch(!toggleSearch);
+                    setToggleSearchSmall(!toggleSearchSmall);
                   }}
                 >
                   <CiSearch />
